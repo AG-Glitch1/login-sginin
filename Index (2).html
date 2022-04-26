@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="login.html">
+</head>
+<body>
+<header class="footer">
+        <p class="f-title">By@<span>Abdelrhman Ghareeb</span></p> 
+        <div class="social--icons">
+            <a href="https://www.facebook.com/a.aboalaa99/"></a>
+            <a href="http://wa.me/+201111434849"></a>
+            <a href="https://www.instagram.com/ghareebeldar7997/"></a>
+        </div>
+</header>
+<h1>SignUp</h1>
+
+<div class="container">
+    <div class="screen">
+        <div class="screen__content">
+            
+            <form class="sgin">
+                <div  class="login__field">
+                    <i class="login__icon fas fa-user-alt"></i>
+                    <input class="login__input" type="text" id="yourname" name="yourname" placeholder="Enter your Username!" >
+                </div>
+                <div class="login__field">
+                    <i class=" login_icon fa-solid fa-at"></i>
+                    <input class="login__input" type="email" name="email" id="email" placeholder="Enter your Email">
+                </div>
+                <div class="login__field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input class="login__input" type="password" name="passwrod" id="password" placeholder="Enter your Password!" minlength="8" maxlength="24">
+                </div>
+                <div class="login__field">
+                    <i class="fa-solid fa-square-phone"></i>
+                    <input class="login__input" type="number" name="tel" id="tel" autocomplete="tel-country-code" value="+20">
+                </div>
+
+                <div class="login__field">
+                        <p class="NANN">Please Select your Gender:</p>
+                        <input class="NAN" type="radio" name="male" id="male">
+                        <label class="NAN" for="male">Male</label><br>
+                        <input class="NAN" type="radio" name="male" id="male">
+                        <label class="NAN" for="fmale">Female</label><br><br>
+                        <input class="NAN" type="checkbox" name="checkbox" id="checkbox">
+                        <label class="NANN" for="checkbox">I agree to the terms</label>
+                </div>
+                <button class="button login__submit">
+                    <span class="button__text">sgin in Now</span>
+                    <i class="button__icon fas fa-chevron-right"></i>
+                </button>	
+
+            </form>
+
+            <div class="social-login">
+                <h3><a href="Index.html">Login</a></h3>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/abdelrahman_ghareeb.1/"class="social-login__icon fab fa-instagram"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100040316114174"  class="social-login__icon fab fa-facebook"></a>
+                    <a href="https://wa.me/+201019742684" class="social-login__icon fab fa-whatsapp"></a>
+                </div>
+            </div>
+        </div>
+        <div class="screen__background">
+            <span class="screen__background__shape screen__background__shape1"></span>
+        </div>	
+    </div>
+</div>
+<script src="./js/sginup.js"></script>
+</body>
+</html>
